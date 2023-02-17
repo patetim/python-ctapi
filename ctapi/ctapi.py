@@ -156,7 +156,7 @@ class CTAPI(object):
         """
 
         params = {
-            'limit': 5,
+            'limit': '',
             'order': 'DESC',
         }
         params.update(args)
